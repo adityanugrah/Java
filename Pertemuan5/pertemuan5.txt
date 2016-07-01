@@ -1,0 +1,38 @@
+Array 1D
+
+Deklarasi :
+	TipeData [] NamavarArray = new TipeData [];
+	int [] nilai = new int [5];
+	String [] nama = new String [5];
+
+Ciri Utama Array 1D :
+1. Indeks array selalu dimulai dari 0 
+2. semua elemen array HARUS mempunyai TIPE DATA yang sama
+3. Pada saat deklarasi, jumlah elemen array harus disebutkan
+4. pengisian, proses dan pencetakan array harus menggunakan LOOPING (FOR)
+
+Pengisian elemen Array 1D :
+========================
+nama [0] = "Dian";  | for (int i = 0; i < 5; i++) {
+nama [1] = "Agus" ; |	S.O.P("Masukkan elemen ke"+(i+1);
+....                |	nama [i] = inputan.readLine ();
+nama [4] = "Budi";  | }
+========================
+========================
+nilai [0] = 80;	    | tugas [0] = 50;
+nilai [1] = 60;     | tugas [1] = 35;
+....                | ...
+nilai [4] = 75      | tugas [4] = 90;
+========================
+
+Proses perhitungan Array 1 D :
+for (int i = 0; i < 5; i+1) {
+	nAkhir [i] = (nilai [i] + tuags [i]/2)
+}
+
+Pencetakan eleman array 1D :
+for (int i=0; i < 5; i+1){
+	S.O.P ("Nilai mahasiswa ke" + (i+1) + "=" +nilai[i]);
+	S.O.P ("Nilai Tugas mhs ke" + (i+1) + "=" +tugas[i]);
+	S.O.P ("Nilai Akhir mhs ke" + (i+1) + "=" +nAkhir[i]);
+}

@@ -1,0 +1,20 @@
+soal 1 :
+> buat daftar nilai mahasiswa beserta data mahasiswa ( buat 2 function beserta 3 procedure )
+
+> function pertama ( total nilai )
+
+> function kedua ( rata - rata)
+ 
+> procedure-1 ( input data mahasiswa )
+
+> procedure-2 ( input data nilai mahasiswa )
+
+> procedure-3 ( menggunakan "if" jika nilai rata-rata > 70, lulus)
+
+tambahi switch case :
+
+pilhan menu :
+1.input data mahasiswa
+2.input data nilai mahasiswa
+3.hasil nilai akhir
+4.exit/keluar

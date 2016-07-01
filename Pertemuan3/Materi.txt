@@ -1,0 +1,93 @@
+========================
+Bentuk 1 - IF Sederhana
+========================
+if (kondisi 1) {
+	//pernyataan sesuai kondisi1
+}
+
+========================
+Bentuk 2 - IF Else
+========================
+if (kondisi 1) {
+	//pernyataan sesuai kondisi11
+}
+else{
+	//peryataan tidak sesuai kondisi
+}
+
+
+==========================
+Bentuk 3 - Nested If ke-1
+==========================
+if (kondisi 1) {
+	//pernyataan sesuai kondisi11
+}
+else if (kondisi2){
+	//peryataan tidak sesuai kondisi2
+}
+else if (kondisi N){
+	//peryataan tidak sesuai kondisiN
+}
+else {
+	//peryataan tidak sesuai kondisi1-N
+}
+
+==========================
+Bentuk 4 - Nested If ke-2
+==========================
+if (kondisi 1) {
+	if(kondisi 1A) {
+		//pernyataan sesuai kondisi11A
+	}
+	else if(kondisi 1N) {
+		//pernyataan sesuai kondisi1N
+	}
+	else {
+		//peryataan tidak sesuai kondisi1A-1N
+	}
+}
+else if (kondisi 2) {
+	if (kondisi 2A) {
+		//pernyataan sesuai kondisi 2A
+`	}
+	else if (kondisi 2) {
+		//pernyataan sesuai kondisi 2N
+	}
+	else {
+		//pernyataan tidak sesuai kondisi 2A-2N
+	}
+}
+else{
+	if (kondisi NA) {
+		//pernyataan sesuai kondisi NA
+	}
+	else if (kondisi NN) {
+		//pernyataan sesuai kondisi NN
+	}
+	else {
+		//pernyataan tidak sesuai kondisi NA - NN
+	}
+}
+
+
+==========================
+Bentuk 5 - Switch Case
+==========================
+switch (pilihan) {
+	case1 :
+		//peryataan untuk sesuai case1
+	break;
+	case2 :
+		//pernyataan untuk sesuai case2
+	break;
+
+	case3 :
+		//pernyataan untuk sesuai case3
+	break;
+	
+	caseN :
+		//pernyataan untuk sesuai caseN
+	break;
+	default:
+		//pernyataan diluar pilihan 1-N
+}

@@ -1,0 +1,43 @@
+Bentuk 1: Do...While
+======================
+//deklarasi batas awal;
+do {
+	//pernyataan yang diulang
+	// increment atau decrement
+} while (batas akhir);
+
+Bentuk 2 : While...Do
+=======================
+//deklarasi batas awal;
+
+while (batas akhir) {
+	//pernyataan yang diulang
+	// increment atau decrement
+}
+
+Bentuk 3 : For (aray 1D)
+===============
+for (batas awal; batas akhir; incre/decrement) {
+	//pernyataan yang diulang
+}
+
+Bentuk 4 : Nested For (aray 2D)
+=======================
+for (batas baris awal; batas baris akhir; incre/decrement) {
+    for (batas kolom awal; batas kolom akhir; incre/decrement) {
+		//pernyatan yang diulang
+	}
+}
+
+Bentuk 5 : Do While untuk Switch Case
+======================================
+do {
+	switch (nopil) {
+		case1 :
+		break;
+	}
+} while (true);
+
+
+ // angka kali 2 bisa juga huruf misal STIKOM SURABAYA utk menambah angka depan dikasih . spasi
+//angka=angka+5 untuk lebih dari satu angka=angka+1

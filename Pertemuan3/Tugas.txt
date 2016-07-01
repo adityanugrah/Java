@@ -1,0 +1,12 @@
+Pilihan Menu	:
+1. Bunga Mawar
+	harga		: ___
+	jumlah beli	: ___(lusin)
+2. Bunga Anggrek
+	harga		: ___
+	jumlah beli	: ___(lusin)
+3. Bunga Tulip
+	harga		: ___
+	jumlah beli	: ___(lusin)
+4. Keluar/Selesai
+	

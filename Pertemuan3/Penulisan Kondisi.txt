@@ -1,0 +1,29 @@
+Penulisan Kondisi  :
+
+pencocokan angka
+ if (nilai == 80) {
+	//
+ }
+
+Pencocokan huruf/kata/kalimat
+if (password.equals("admin123")) {
+	//
+} --------- catatan: memperhatikan penulisan huruf besar/kecil
+if (password.equals.IgnoreCase("admin123")) {
+	//
+} --------- catatan: TANPA memperhatikan pernulisan huruf besar/kecil
+
+Menggunakan Operator DAN
+if (nilai>=50)&&(nilai<=80) {
+	//
+}
+
+Menggunakan Operator ATAU
+if (kata.equals("admin123")) || (kata.equals("123")) {
+	//
+}
+
+Menggunakan operator TIDAK SAMA DENGAN
+if !(nilai == 80){
+	//
+}

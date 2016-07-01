@@ -1,0 +1,18 @@
+Vector
+
+> import java.util.Vector;
+> Vector nama_vector = new Vector ();
+> Metode yang dimiliki Vector :
+  1. addElement (element)
+  2. insertElementAt (element,index)
+  3. removeElement (element)
+  4. removeAllElement ()
+  5. elementAt (index)
+
+> proses yang dapat dilakukan oleh Vektor :
+  1. Insert Data
+  2. Update Data
+  3. Delete Data
+  4. Lihat Data
+
+>tambahan tugas project lihat data, sisanya sama kayak uts cuma pakai konsep Vector (berlaku untuk semua tabel).

@@ -1,0 +1,3 @@
+soal !
+
+buat kalkulator sederhana yang dapat menerima inputan dari user dengan menggunakan metode overloading untuk setiap perhitungan juga berikan garis (dengan metode overloading) untuk tiap batasnya (hanya untuk perkalian dan pembagian).

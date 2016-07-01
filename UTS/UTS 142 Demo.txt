@@ -1,0 +1,35 @@
+Detail Ketentuan UTS Bahasa Pemrograman :
+==============================
+1. Setiap Kelompok terdiri max.4 orang mahasiswa.
+2. Barang yang ditransaksikan adalah jenis barang yang dijual di Supermarket
+    (dapat dimakan/diminum).
+3. Jenis barang harus dibuktikan dengan print/cetak brosur ASLI.
+4. Proyek Pemrograman dilakukan menggunakan Konsep Array 1D dan 2D.
+5. TEMA : Transaksi PENGIRIMAN atau PENERIMAAN Barang.
+6. Pemilihan jenis transaksi akan ditentukan oleh Dosen saat Konsultasi I .
+    (dengan membawa FORM KONSULTASI dan BROSUR barang).
+7. Semua anggota kelompok HARUS HADIR pada saat KONSULTASI,
+    Jika tidak, akan diberikan -5 (Per Konsultasi yg TIDAK HADIR)
+
+Detil Transaksi UTS Bahasa Pemrograman :
+==============================
+1. Proses yang harus ada pada program (WAJIB, Maks NILAI = 70 Point)
+
+(Dibawah ini merupakan contoh struktur data untuk Transaksi Pengiriman)
+
+    a. INPUT Data Master Barang (Kode Barang, Kode Jenis Barang, Nama Barang, Berat Barang,Harga per barang, Diskon)
+    b. INPUT Data Jenis Barang (Kode Jenis Barang, Jenis Barang)
+    c. INPUT Data Customer (Kode Customer, Nama Cust, Alamat, Telp/HP, Email, Kota Cust)
+    d. INPUT Data Kota Tujuan (Kode Kota, Kota Tujuan, Ongkos Kirim)
+    e. INPUT TRANSAKSI Pengiriman (Kode Trans, Tgl Trans, Data Cust, Data barang, Total Harga,Total Harga Setelah Diskon, Ongkos Kirim, Status Pengiriman, Nama Penerima Barang)
+    f. CETAK LAPORAN (Semua Data Master dan Transaksi)
+
+Note : Semua data diinputkan oleh User. 
+
+2. Proses Tambahan (OPTIONAL, Maks NILAI TAMBAH = 30 Point)
+    CETAK LAPORAN Transaksi Pengiriman berdasarkan INPUTAN Tgl Trans dan Nama Customer.
+
+Note : Hati-hati jika dalam Data Transaksi terdapat Tgl Trans dan Nama Cust yang SAMA. :)
+
+
+============           SELAMAT BERJUANG, SEMOGA SUKSES        ===============

@@ -1,0 +1,36 @@
+Metode / sub program
+
+1. Prosedur / procedure
+2. Fungsi / Function
+
+> Merupakan bagian dari program, namun ditulis secara terpisah  dari program utama.
+> Dapat ditulis tanpa parameter / dengan parameter.
+> Semua prosedur / fungsi harus dipanggil di program utama.
+
+=>> Procedure
+-> Ditandai dengan kata kunci "void".
+-> Mengijinkan adanya System.out.println () di dalam sub program.
+-> Mencetak dalam dilakukan didalam prosedur.
+-> Namun prosedur biasanya menggunakan "KATA BENDA".
+
+Contoh Program :
+public class DataMhs {
+	public static void garis () {
+		S.O.P ("=============");
+	}
+	public static void data (String nim, String nama) {
+		S.O.P ("NIM Mhs = " +nim);
+		S.O.P ("Nama Mhs = " +nama);
+	}
+	public static void main (String [] arg ) {
+		garis ();
+		S.O.P ("DATA MAHASISWA");
+		garis ();
+		String nimMhs 	= "13410100123";
+		String namaMhs 	= "Budi Setiawan";
+		int usia 	= 20;
+		data (nimMhs,namaMhs);
+		S.O.P ("Usia Mhs = " +usia + "tahun");
+		garis();
+	}
+}
